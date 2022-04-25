@@ -1,0 +1,19 @@
+{
+  "name": "piggame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-coderslink/piggame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/web-coderslink/piggame/issues"
+  },
+  "homepage": "https://github.com/web-coderslink/piggame#readme"
+}
