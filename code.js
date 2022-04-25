@@ -1,5 +1,3 @@
-'use strict;'
-
 let side1=document.querySelector('.side1')
 let side2=document.querySelector('.side2')
 let refresh=document.querySelector('.refresh')
@@ -59,11 +57,11 @@ init();
 
 
 roleit.addEventListener('click',function(){
-   console.log("ap for 1",ap)
+   
     if(playing){
     var n=Math.trunc(Math.random()*6+1)
     console.log(n)
-    images.src=`dice-${n}.png`;
+    images.src=`/img/dice-${n}.png`;
     if(!(n==1 || n==6))
     {
      currentscore=currentscore+n;
@@ -74,7 +72,7 @@ roleit.addEventListener('click',function(){
 });
 
 const switchscreen=function (){
-    console.log('enter',ap)
+    
     document.querySelector(`.c${ap}`).innerHTML=0;
     currentscore=0;
     ap= ap=== 1?2:1;
